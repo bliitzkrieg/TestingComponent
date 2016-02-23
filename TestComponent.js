@@ -1,3 +1,7 @@
+if(typeof window.reactComponents === "undefined") {
+    window.reactComponents = {};
+}
+
 window.reactComponents.TestComponent = (function () {
 
     var divStyle = {
