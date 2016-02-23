@@ -1,4 +1,4 @@
-window.reactComponents = (function () {
+window.reactComponents.TestComponent = (function () {
 
     var divStyle = {
         color: 'blue'
@@ -20,6 +20,6 @@ window.reactComponents = (function () {
             );
         }
     });
-    
+
     return TestComponent;
 }());
