@@ -1,7 +1,4 @@
-'use strict';
-
-(function () {
-    'use strict';
+window.reactComponents = (function () {
 
     var divStyle = {
         color: 'blue'
@@ -23,5 +20,6 @@
             );
         }
     });
-
-})();
+    
+    return TestComponent;
+}());
